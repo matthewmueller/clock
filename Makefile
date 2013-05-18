@@ -1,5 +1,5 @@
 
-build: components index.js clock.css template.js
+build: components index.js template.js
 	@component build --dev
 
 template.js: template.html
