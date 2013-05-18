@@ -24,36 +24,40 @@ setInterval(function() {
 
 ## API
 
-### `Clock(hour, minute, second)`
+#### `Clock(hour, minute, second)`
 
   Initialize a `Clock`
 
-### `Clock.refresh()`
+#### `Clock.refresh()`
 
 Refresh the clock to the current time
 
-### `Clock.hour(hr)`
+```js
+clock.refresh()
+```
+
+#### `Clock.hour(hr)`
 
 Get or set the hour.
 
 ```js
-clock.hour(5);
+clock.hour(5)
 ```
 
-### `Clock.minute(min)`
+#### `Clock.minute(min)`
 
 Get or set the minute
 
 ```js
-clock.minute(30);
+clock.minute(30)
 ```
 
-### `Clock.second(sec)`
+#### `Clock.second(sec)`
 
 Get or set the second
 
 ```js
-clock.second(45);
+clock.second(45)
 ```
 
 ## License
