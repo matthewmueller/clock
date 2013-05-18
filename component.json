@@ -3,8 +3,10 @@
   "repo": "matthewmueller/clock",
   "description": "swiss railway inspired clock",
   "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {},
+  "keywords": ["clock", "swiss"],
+  "dependencies": {
+    "component/domify": "*"
+  },
   "development": {},
   "license": "MIT",
   "main": "index.js",

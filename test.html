@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>Clock component</title>
+</head>
+<body>
+  <h1>Clock component</h1>
+  <script src="../build/build.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var Clock = require('clock');
+    var date = new Date;
+    var clock = new Clock;
+    clock.refresh();
+    document.body.appendChild(clock.el);
+    setInterval(function() {
+      clock.refresh();
+    }, 1000);
+
+  </script>
+</body>
+</html>
