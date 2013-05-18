@@ -3,7 +3,7 @@
 
 Create a swiss railway inspired clock.
 
-![swiss clock](https://cloudup.com/ceuCvBPqJHI)
+![swiss clock](http://i.cloudup.com/dpi2yHoUlp.png)
 
 ## Installation
 
@@ -24,15 +24,15 @@ setInterval(function() {
 
 ## API
 
-### Clock(hour, minute, second)
+### `Clock(hour, minute, second)`
 
   Initialize a `Clock`
 
-### Clock.refresh()
+### `Clock.refresh()`
 
 Refresh the clock to the current time
 
-### Clock.hour(hr)
+### `Clock.hour(hr)`
 
 Get or set the hour.
 
@@ -40,7 +40,7 @@ Get or set the hour.
 clock.hour(5);
 ```
 
-### Clock.minute(min)
+### `Clock.minute(min)`
 
 Get or set the minute
 
@@ -48,7 +48,7 @@ Get or set the minute
 clock.minute(30);
 ```
 
-### Clock.second(sec)
+### `Clock.second(sec)`
 
 Get or set the second
 
