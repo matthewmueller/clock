@@ -13,5 +13,8 @@
   "scripts": [
     "index.js",
     "template.js"
+  ],
+  "styles": [
+    "clock.css"
   ]
 }
