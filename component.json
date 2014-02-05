@@ -2,7 +2,7 @@
   "name": "clock",
   "repo": "matthewmueller/clock",
   "description": "swiss railway inspired clock",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "keywords": ["clock", "swiss"],
   "dependencies": {
     "component/domify": "1.2.1"
