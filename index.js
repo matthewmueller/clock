@@ -3,7 +3,7 @@
  */
 
 var domify = require('domify');
-var el = domify(require('./template'))[0];
+var el = domify(require('./template'));
 
 /**
  * Expose `Clock`

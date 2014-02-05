@@ -5,7 +5,7 @@
   "version": "0.0.2",
   "keywords": ["clock", "swiss"],
   "dependencies": {
-    "component/domify": "*"
+    "component/domify": "1.2.1"
   },
   "development": {},
   "license": "MIT",
